@@ -1,1 +1,129 @@
-# New
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX Profiles</title>
+    <style>
+    :root {
+      --color-white: #FFFFFF;
+      --color-black: #141414;
+      --color-gray: #808080; 
+     }
+
+html {
+  background-color: var(--color-black);
+  line-height: 2;
+}
+
+h1 {
+  font-size: 42px;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--color-white);
+  text-align: center;
+}
+
+p {
+  color: var(--color-gray);
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.profile p {
+   margin-top: 1px;
+}
+
+img {
+   height: 35px;
+   width: auto;
+}
+
+.netflix-logo {
+   margin-top: 29px;
+   margin-left: 25px;
+   cursor: pointer;
+}
+
+.profile-lists {
+   margin: 0 auto;
+   display: table;
+}
+
+.profile {
+   width: 150px;
+   height: 150px;
+   background-color: var(--color-white);
+   border-radius: 10px;
+   border: 0px solid var(--color-black);
+   text-align: center;
+   display: inline-block;
+   margin-left: 25px;
+}
+
+.profile-img {
+   width: 150px;
+   height: 150px;
+   border-radius: 8px;
+   cursor: pointer;
+}
+
+.profile:hover {
+    border: 3px solid var(--color-white);
+}
+
+.btn {
+  color: var(--color-gray);
+  background-color: var(--color-black);
+  cursor: pointer;
+  border: 2px solid var(--color-gray);
+  width: 218px;
+  height: 45px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  margin-top:  60px;
+}
+
+.btn:hover {
+  border: 2px solid var(--color-white);
+  color: var(--color-white);
+}
+</style>
+</head>
+<body>
+<div class="netflix-logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo">
+  </div>
+   <h1>Who's watching?</h1>
+     <div class="profile-lists">
+       <div class="profile">
+         <img class="profile-img" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRyBRODHdck7MaW3k7ya-ZLEeKLSYJ4HtIFGocq_23FCiYws8k" alt="Netflix Mask Avatar">
+         <p>Eze</p>
+       </div>
+        <div class="profile">
+          <img class="profile-img" src="https://avatars.githubusercontent.com/u/26828270?v=4" alt="Netflix Kitty Avatar">
+       <p>Jenny</p>
+        </div>
+          <div class="profile">
+            <img class="profile-img" src="https://www.linkpicture.com/q/img.png3_1.png" alt="Netflix Red Avatar">
+           <p>Stella</p>
+          </div>
+          <div class="profile">
+            <img class="profile-img" src="https://i.pinimg.com/736x/55/ba/30/55ba30e8f83d0064ee7669dc203ad1d5.jpg"  alt="Netflix Stranger Things Avatar">
+            <p>nybella</p>
+          </div>
+            <div class="profile">
+              <img class="profile-img"  src="https://www.linkpicture.com/q/img.png2.png"  alt="Netflix Kids Avatar">
+              <p>Kids</p>
+          </div>
+    <br> <br>
+    <button class="btn">manage profiles</button>
+  </div>
+</body>
+</html>
